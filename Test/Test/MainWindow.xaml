@@ -4,9 +4,10 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <Viewbox Height="287" HorizontalAlignment="Left" Margin="12,12,0,0" Name="viewbox1" VerticalAlignment="Top" Width="479" AllowDrop="False">
-            <Expander Header="expander1" Height="148" Name="expander1" Width="258">
-                <Grid />
+            <Expander Header="expander1" Height="54" Name="expander1" Width="232" Background="#FFD18181">
+                <Button Content="Button" Height="23" Name="button1" Width="75" />
             </Expander>
         </Viewbox>
+        <ProgressBar Height="27" HorizontalAlignment="Left" Margin="381,284,0,0" Name="progressBar1" VerticalAlignment="Top" Width="110" />
     </Grid>
 </Window>
