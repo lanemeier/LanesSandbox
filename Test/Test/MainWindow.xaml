@@ -1,0 +1,12 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Viewbox Height="287" HorizontalAlignment="Left" Margin="12,12,0,0" Name="viewbox1" VerticalAlignment="Top" Width="479" AllowDrop="False">
+            <Expander Header="expander1" Height="148" Name="expander1" Width="258">
+                <Grid />
+            </Expander>
+        </Viewbox>
+    </Grid>
+</Window>
