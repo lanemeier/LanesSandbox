@@ -3,10 +3,15 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Viewbox Height="287" HorizontalAlignment="Left" Margin="12,12,0,0" Name="viewbox1" VerticalAlignment="Top" Width="479" AllowDrop="False">
-            <Expander Header="expander1" Height="148" Name="expander1" Width="258">
-                <Grid />
+        <Viewbox Height="255" HorizontalAlignment="Left" Margin="12,44,0,0" Name="viewbox1" VerticalAlignment="Top" Width="479" AllowDrop="False">
+            <Expander Header="expander1" Height="149" Name="expander1" Width="258">
+                <Grid>
+                    <MediaElement Height="102" HorizontalAlignment="Left" Margin="5,4,0,0" Name="mediaElement1" VerticalAlignment="Top" Width="252" MediaOpened="mediaElement1_MediaOpened" UnloadedBehavior="Play" UseLayoutRounding="True" DataContext="{Binding}" />
+                </Grid>
             </Expander>
         </Viewbox>
+        <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="503" BorderBrush="#FFD15B5B" AllowDrop="True">
+            <MenuItem Header="Test" IsCheckable="True" />
+        </Menu>
     </Grid>
 </Window>

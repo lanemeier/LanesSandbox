@@ -23,5 +23,10 @@ namespace Test
         {
             InitializeComponent();
         }
+
+        private void mediaElement1_MediaOpened(object sender, RoutedEventArgs e)
+        {
+            Console.WriteLine("media is showing.");
+        }
     }
 }
