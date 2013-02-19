@@ -1,0 +1,11 @@
+﻿<Window x:Class="Test.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu Height="23" HorizontalAlignment="Left" Name="menu1" VerticalAlignment="Top" Width="503" BorderBrush="#FFD15B5B" AllowDrop="True">
+            <MenuItem Header="Test" IsCheckable="True" />
+        </Menu>
+        <MediaElement Height="270" HorizontalAlignment="Left" Margin="12,29,0,0" Name="mediaElement1" VerticalAlignment="Top" Width="479" />
+    </Grid>
+</Window>
